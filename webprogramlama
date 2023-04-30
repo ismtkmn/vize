@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-sm-4">Sütun 1</div>
+  <div class="col-sm-4">Sütun 2</div>
+  <div class="col-sm-4">Sütun 3</div>
+</div>
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+}
+
+.container {
+  width: 90%;
+}
+
+<img src="resim.jpg"
+     alt="Resim Açıklaması"
+     srcset="resim-320.jpg 320w,
+             resim-480.jpg 480w,
+             resim-800.jpg 800w"
+     sizes="(max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            800px">
